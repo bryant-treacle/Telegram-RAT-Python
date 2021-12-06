@@ -10,7 +10,8 @@ Python based RAT that uses Telegram for sending commands and receiving data to a
 
 2. Install necessary requirements: `pip install -r requirements.txt`
 3. Send a command to your Telegram bot
-4. Run `python3 main.py`
+4. Run `python3 main.py`  
+**Note:** This runs in a while loop and sleeps for 10 seconds before checking Telegram for updated commands. It will re-run the last command in the channel. Adding the /sleep command to Telegram will allow you to add additional time between check ins.
 
 
 ## Available Commands
