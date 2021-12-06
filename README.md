@@ -16,6 +16,7 @@ Python based RAT that uses Telegram for sending commands and receiving data to a
 ## Available Commands
 
 * **/whoami** - returns username. no additional arguments required.
+* **/sleep** - will have to bot sleep for the specified amount of time in seconds.
 * **/screenshot** - takes screenshots. requires the number of screenshots to take (EX: /screenshot 5 <- to take 5 screenshots)
 * **/location** - returns location info (region, state, zip code, estimated coordinates, timezone, country, ip address)
 * **/metadata** - returns metadata info about a specified file. requires filepath as an additional argument (EX: /metadata C:\Users\Username\Files\special.java <- will return metadata info about special.java)
