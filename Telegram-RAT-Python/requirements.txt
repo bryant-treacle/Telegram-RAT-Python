@@ -1,4 +1,0 @@
-pyautogui
-pywin32
-win32clipboard
-winsound
